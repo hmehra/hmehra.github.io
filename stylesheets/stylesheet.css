@@ -195,6 +195,11 @@ blockquote {
   border-left: 3px solid #bbb;
 }
 
+#profile_photo {
+  position:fixed;
+  top:30px;
+  left:50px;
+}
 
 ul, ol, dl {
   margin-bottom: 15px
