@@ -274,7 +274,7 @@ Full-Width Styles
 .inner {
   max-width: 860px;
   padding: 20px 10px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 #forkme_banner {
@@ -342,6 +342,20 @@ Full-Width Styles
 #footer_wrap .inner {
     position:absolute;
     left:68%;
+}
+
+#main-404 {
+  background: url("../images/404.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#content-404 {
+  position:fixed;
+  top:30%;
+  left:20%;
 }
 
 /*******************************************************************************
