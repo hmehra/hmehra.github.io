@@ -77,10 +77,7 @@ function print_info(doc)
     string +=  "<img src=\"" + doc.Poster + "\"></img></p>";
     document.getElementById("test").innerHTML += string;
   
-    $("div#test").dialog({
-        closeOnEscape:true,
-    });
-}
+  }
 
 function processReqChange() 
 {
