@@ -36,7 +36,7 @@ function getinfo(name)
 {
     document.getElementById("test").innerHTML = "";
     document.getElementById("test").innerHTML += "<h1>" + name + "</h1>";
-    url = encodeURI("http://www.omdbapi.com/?t=" + name
+    url = encodeURI("https://www.omdbapi.com/?t=" + name
                     + "&y=&plot=short&r=json");
     
     if(window.XMLHttpRequest) {
