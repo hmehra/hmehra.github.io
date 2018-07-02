@@ -160,15 +160,6 @@ img {
     left:40%;
 }
 
-#movie-list {
-    position:relative;
-}
-
-#tv-series-list {
-    position:relative;
-    left:80%;
-}
-
 pre, code {
   width: 100%;
   color: #222;
